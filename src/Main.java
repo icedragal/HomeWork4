@@ -22,5 +22,18 @@ public class Main {
             System.out.println("Человек окончил университет и ему пора искать первую работу.");
         }
 
+        //Task1.3
+        System.out.println("Задание 1.3");
+        int people = 103;
+        if (people > 102) {
+            System.out.println("Вагон полностью забит.");
+        }
+        if (people < 60) {
+            System.out.println("Есть сидячие места.");
+        }
+        if (people >= 60 && people <= 102) {
+            System.out.println("Есть стоячие места.");
+        }
+
     }
 }
