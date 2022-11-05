@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         //Task1.1
         System.out.println("Задание 1.1");
-        int age = 17;
+        int age = 14;
         if (age >= 18) {
             System.out.println("Поздравляем с совершеннолетием!");
         }
@@ -75,6 +75,27 @@ public class Main {
             System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить на работу.");
         }
 
+        //Task3.2
+        System.out.println("Задание 3.2");
+        if (age < 5) {
+            System.out.println("Ребенок не может кататься на атракционе.");
+        } else if (age >= 5 && age <= 14) {
+            System.out.println("Ребенок может кататься на атракционе в сопровождении взрослого.");
+        } else if (age > 14) {
+            System.out.println("Ребенок может кататься на атракционе.");
+        }
 
+        //Task3.3
+        System.out.println("Задание 3.3");
+        int one = 7;
+        int two = 7;
+        int free = 6;
+        if (one > two && one > free){
+            System.out.println("Большее число: " + one);
+        } else if (two > one && two > free){
+            System.out.println("Большее число: " + two);
+        } else if (free > one && free > two) {
+            System.out.println("Большее число: " + free);
+        }
     }
 }
