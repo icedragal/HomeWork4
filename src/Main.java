@@ -34,6 +34,7 @@ public class Main {
         if (people >= 60 && people <= 102) {
             System.out.println("Есть стоячие места.");
         }
+
         //Task2.1
         System.out.println("Задание 2.1");
         if (age >= 18) {
@@ -51,5 +52,16 @@ public class Main {
         } else if (age >= 24){
             System.out.println("Человек окончил университет и ему пора искать первую работу.");
         }
+
+        //Task2.3
+        System.out.println("Задание 2.3");
+        if (people > 102) {
+            System.out.println("Вагон полностью забит.");
+        } else if (people < 60) {
+            System.out.println("Есть сидячие места.");
+        } else if (people >= 60 && people <= 102) {
+            System.out.println("Есть стоячие места.");
+        }
+
     }
 }
