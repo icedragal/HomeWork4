@@ -84,18 +84,5 @@ public class Main {
         } else if (age > 14) {
             System.out.println("Ребенок может кататься на атракционе.");
         }
-
-        //Task3.3
-        System.out.println("Задание 3.3");
-        int one = 7;
-        int two = 6;
-        int free = 5;
-        if (one > two && one > free){
-            System.out.println("Большее число: " + one);
-        } else if (two > one && two > free){
-            System.out.println("Большее число: " + two);
-        } else if (free > one && free > two) {
-            System.out.println("Большее число: " + free);
-        }
     }
 }
