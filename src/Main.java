@@ -88,7 +88,7 @@ public class Main {
         //Task3.3
         System.out.println("Задание 3.3");
         int one = 7;
-        int two = 7;
+        int two = 6;
         int free = 6;
         if (one > two && one > free){
             System.out.println("Большее число: " + one);
