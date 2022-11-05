@@ -89,7 +89,7 @@ public class Main {
         System.out.println("Задание 3.3");
         int one = 7;
         int two = 6;
-        int free = 6;
+        int free = 5;
         if (one > two && one > free){
             System.out.println("Большее число: " + one);
         } else if (two > one && two > free){
